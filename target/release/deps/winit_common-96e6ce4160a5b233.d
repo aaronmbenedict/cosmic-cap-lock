@@ -1,0 +1,11 @@
+/home/aaron/Downloads/cosmic-applet-capslock/cosmic-applet-capslock/target/release/deps/winit_common-96e6ce4160a5b233.d: /home/aaron/.cargo/git/checkouts/winit-d03127a0b2faf55d/a610ac9/winit-common/src/lib.rs /home/aaron/.cargo/git/checkouts/winit-d03127a0b2faf55d/a610ac9/winit-common/src/xkb/mod.rs /home/aaron/.cargo/git/checkouts/winit-d03127a0b2faf55d/a610ac9/winit-common/src/xkb/compose.rs /home/aaron/.cargo/git/checkouts/winit-d03127a0b2faf55d/a610ac9/winit-common/src/xkb/keymap.rs /home/aaron/.cargo/git/checkouts/winit-d03127a0b2faf55d/a610ac9/winit-common/src/xkb/state.rs
+
+/home/aaron/Downloads/cosmic-applet-capslock/cosmic-applet-capslock/target/release/deps/libwinit_common-96e6ce4160a5b233.rlib: /home/aaron/.cargo/git/checkouts/winit-d03127a0b2faf55d/a610ac9/winit-common/src/lib.rs /home/aaron/.cargo/git/checkouts/winit-d03127a0b2faf55d/a610ac9/winit-common/src/xkb/mod.rs /home/aaron/.cargo/git/checkouts/winit-d03127a0b2faf55d/a610ac9/winit-common/src/xkb/compose.rs /home/aaron/.cargo/git/checkouts/winit-d03127a0b2faf55d/a610ac9/winit-common/src/xkb/keymap.rs /home/aaron/.cargo/git/checkouts/winit-d03127a0b2faf55d/a610ac9/winit-common/src/xkb/state.rs
+
+/home/aaron/Downloads/cosmic-applet-capslock/cosmic-applet-capslock/target/release/deps/libwinit_common-96e6ce4160a5b233.rmeta: /home/aaron/.cargo/git/checkouts/winit-d03127a0b2faf55d/a610ac9/winit-common/src/lib.rs /home/aaron/.cargo/git/checkouts/winit-d03127a0b2faf55d/a610ac9/winit-common/src/xkb/mod.rs /home/aaron/.cargo/git/checkouts/winit-d03127a0b2faf55d/a610ac9/winit-common/src/xkb/compose.rs /home/aaron/.cargo/git/checkouts/winit-d03127a0b2faf55d/a610ac9/winit-common/src/xkb/keymap.rs /home/aaron/.cargo/git/checkouts/winit-d03127a0b2faf55d/a610ac9/winit-common/src/xkb/state.rs
+
+/home/aaron/.cargo/git/checkouts/winit-d03127a0b2faf55d/a610ac9/winit-common/src/lib.rs:
+/home/aaron/.cargo/git/checkouts/winit-d03127a0b2faf55d/a610ac9/winit-common/src/xkb/mod.rs:
+/home/aaron/.cargo/git/checkouts/winit-d03127a0b2faf55d/a610ac9/winit-common/src/xkb/compose.rs:
+/home/aaron/.cargo/git/checkouts/winit-d03127a0b2faf55d/a610ac9/winit-common/src/xkb/keymap.rs:
+/home/aaron/.cargo/git/checkouts/winit-d03127a0b2faf55d/a610ac9/winit-common/src/xkb/state.rs:

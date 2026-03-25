@@ -1,0 +1,11 @@
+/home/aaron/Downloads/cosmic-applet-capslock/cosmic-applet-capslock/target/release/deps/i18n_embed-5d10dc18f53e4c71.d: /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/i18n-embed-0.16.0/src/lib.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/i18n-embed-0.16.0/src/assets.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/i18n-embed-0.16.0/src/requester.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/i18n-embed-0.16.0/src/util.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/i18n-embed-0.16.0/src/fluent.rs
+
+/home/aaron/Downloads/cosmic-applet-capslock/cosmic-applet-capslock/target/release/deps/libi18n_embed-5d10dc18f53e4c71.rlib: /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/i18n-embed-0.16.0/src/lib.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/i18n-embed-0.16.0/src/assets.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/i18n-embed-0.16.0/src/requester.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/i18n-embed-0.16.0/src/util.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/i18n-embed-0.16.0/src/fluent.rs
+
+/home/aaron/Downloads/cosmic-applet-capslock/cosmic-applet-capslock/target/release/deps/libi18n_embed-5d10dc18f53e4c71.rmeta: /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/i18n-embed-0.16.0/src/lib.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/i18n-embed-0.16.0/src/assets.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/i18n-embed-0.16.0/src/requester.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/i18n-embed-0.16.0/src/util.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/i18n-embed-0.16.0/src/fluent.rs
+
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/i18n-embed-0.16.0/src/lib.rs:
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/i18n-embed-0.16.0/src/assets.rs:
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/i18n-embed-0.16.0/src/requester.rs:
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/i18n-embed-0.16.0/src/util.rs:
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/i18n-embed-0.16.0/src/fluent.rs:

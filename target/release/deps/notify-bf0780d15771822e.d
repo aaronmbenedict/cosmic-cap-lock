@@ -1,0 +1,12 @@
+/home/aaron/Downloads/cosmic-applet-capslock/cosmic-applet-capslock/target/release/deps/notify-bf0780d15771822e.d: /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/notify-8.2.0/src/lib.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/notify-8.2.0/src/inotify.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/notify-8.2.0/src/null.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/notify-8.2.0/src/poll.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/notify-8.2.0/src/config.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/notify-8.2.0/src/error.rs
+
+/home/aaron/Downloads/cosmic-applet-capslock/cosmic-applet-capslock/target/release/deps/libnotify-bf0780d15771822e.rlib: /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/notify-8.2.0/src/lib.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/notify-8.2.0/src/inotify.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/notify-8.2.0/src/null.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/notify-8.2.0/src/poll.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/notify-8.2.0/src/config.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/notify-8.2.0/src/error.rs
+
+/home/aaron/Downloads/cosmic-applet-capslock/cosmic-applet-capslock/target/release/deps/libnotify-bf0780d15771822e.rmeta: /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/notify-8.2.0/src/lib.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/notify-8.2.0/src/inotify.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/notify-8.2.0/src/null.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/notify-8.2.0/src/poll.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/notify-8.2.0/src/config.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/notify-8.2.0/src/error.rs
+
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/notify-8.2.0/src/lib.rs:
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/notify-8.2.0/src/inotify.rs:
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/notify-8.2.0/src/null.rs:
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/notify-8.2.0/src/poll.rs:
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/notify-8.2.0/src/config.rs:
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/notify-8.2.0/src/error.rs:

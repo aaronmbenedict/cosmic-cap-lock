@@ -1,0 +1,11 @@
+/home/aaron/Downloads/cosmic-applet-capslock/cosmic-applet-capslock/target/release/deps/aliasable-470034701fb70d28.d: /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aliasable-0.1.3/src/lib.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aliasable-0.1.3/src/mut_ref.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aliasable-0.1.3/src/boxed.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aliasable-0.1.3/src/string.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aliasable-0.1.3/src/vec.rs
+
+/home/aaron/Downloads/cosmic-applet-capslock/cosmic-applet-capslock/target/release/deps/libaliasable-470034701fb70d28.rlib: /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aliasable-0.1.3/src/lib.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aliasable-0.1.3/src/mut_ref.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aliasable-0.1.3/src/boxed.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aliasable-0.1.3/src/string.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aliasable-0.1.3/src/vec.rs
+
+/home/aaron/Downloads/cosmic-applet-capslock/cosmic-applet-capslock/target/release/deps/libaliasable-470034701fb70d28.rmeta: /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aliasable-0.1.3/src/lib.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aliasable-0.1.3/src/mut_ref.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aliasable-0.1.3/src/boxed.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aliasable-0.1.3/src/string.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aliasable-0.1.3/src/vec.rs
+
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aliasable-0.1.3/src/lib.rs:
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aliasable-0.1.3/src/mut_ref.rs:
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aliasable-0.1.3/src/boxed.rs:
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aliasable-0.1.3/src/string.rs:
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aliasable-0.1.3/src/vec.rs:

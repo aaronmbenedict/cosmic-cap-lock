@@ -1,0 +1,10 @@
+/home/aaron/Downloads/cosmic-applet-capslock/cosmic-applet-capslock/target/release/deps/wayland_client-64f8bbdc68e63f39.d: /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.13/src/lib.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.13/src/conn.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.13/src/event_queue.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.13/src/globals.rs
+
+/home/aaron/Downloads/cosmic-applet-capslock/cosmic-applet-capslock/target/release/deps/libwayland_client-64f8bbdc68e63f39.rlib: /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.13/src/lib.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.13/src/conn.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.13/src/event_queue.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.13/src/globals.rs
+
+/home/aaron/Downloads/cosmic-applet-capslock/cosmic-applet-capslock/target/release/deps/libwayland_client-64f8bbdc68e63f39.rmeta: /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.13/src/lib.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.13/src/conn.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.13/src/event_queue.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.13/src/globals.rs
+
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.13/src/lib.rs:
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.13/src/conn.rs:
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.13/src/event_queue.rs:
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-client-0.31.13/src/globals.rs:

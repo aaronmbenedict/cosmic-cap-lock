@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Caps Lock Indicator
+Comment=Shows Caps Lock state in the Cosmic panel
+Exec=cosmic-applet-capslock
+Icon=input-keyboard-symbolic
+Type=Application
+Categories=Utility;
+# Marks this as a Cosmic panel applet
+X-CosmicApplet=true
+NoDisplay=false
+StartupNotify=false

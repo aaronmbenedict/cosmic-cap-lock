@@ -1,0 +1,24 @@
+[package]
+name = "cosmic-applet-capslock"
+version = "0.1.0"
+edition = "2024"
+license = "GPL-3.0"
+description = "Caps Lock panel indicator for Cosmic DE"
+
+[[bin]]
+name = "cosmic-applet-capslock"
+path = "src/main.rs"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+
+[dependencies.libcosmic]
+git = "https://github.com/pop-os/libcosmic.git"
+default-features = false
+features = [
+    "applet",
+    "tokio",
+    "wayland",
+    "winit",
+    "multi-window",
+]

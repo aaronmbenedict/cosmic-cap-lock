@@ -1,0 +1,12 @@
+/home/aaron/Downloads/cosmic-applet-capslock/cosmic-applet-capslock/target/release/deps/drm_ffi-d42d5a65abcdceee.d: /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/drm-ffi-0.7.1/src/lib.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/drm-ffi-0.7.1/src/utils.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/drm-ffi-0.7.1/src/gem.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/drm-ffi-0.7.1/src/ioctl.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/drm-ffi-0.7.1/src/mode.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/drm-ffi-0.7.1/src/syncobj.rs
+
+/home/aaron/Downloads/cosmic-applet-capslock/cosmic-applet-capslock/target/release/deps/libdrm_ffi-d42d5a65abcdceee.rlib: /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/drm-ffi-0.7.1/src/lib.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/drm-ffi-0.7.1/src/utils.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/drm-ffi-0.7.1/src/gem.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/drm-ffi-0.7.1/src/ioctl.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/drm-ffi-0.7.1/src/mode.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/drm-ffi-0.7.1/src/syncobj.rs
+
+/home/aaron/Downloads/cosmic-applet-capslock/cosmic-applet-capslock/target/release/deps/libdrm_ffi-d42d5a65abcdceee.rmeta: /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/drm-ffi-0.7.1/src/lib.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/drm-ffi-0.7.1/src/utils.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/drm-ffi-0.7.1/src/gem.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/drm-ffi-0.7.1/src/ioctl.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/drm-ffi-0.7.1/src/mode.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/drm-ffi-0.7.1/src/syncobj.rs
+
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/drm-ffi-0.7.1/src/lib.rs:
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/drm-ffi-0.7.1/src/utils.rs:
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/drm-ffi-0.7.1/src/gem.rs:
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/drm-ffi-0.7.1/src/ioctl.rs:
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/drm-ffi-0.7.1/src/mode.rs:
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/drm-ffi-0.7.1/src/syncobj.rs:

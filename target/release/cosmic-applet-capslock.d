@@ -1,0 +1,1 @@
+/home/aaron/Downloads/cosmic-applet-capslock/cosmic-applet-capslock/target/release/cosmic-applet-capslock: /home/aaron/Downloads/cosmic-applet-capslock/cosmic-applet-capslock/src/keyboard.rs /home/aaron/Downloads/cosmic-applet-capslock/cosmic-applet-capslock/src/main.rs

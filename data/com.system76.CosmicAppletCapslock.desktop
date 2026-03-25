@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Caps Lock Indicator
+Type=Application
+Exec=cosmic-applet-capslock
+Terminal=false
+Categories=COSMIC;
+Keywords=COSMIC;Iced;
+Icon=input-keyboard-symbolic
+StartupNotify=true
+NoDisplay=true
+X-CosmicApplet=true
+X-CosmicHoverPopup=Auto

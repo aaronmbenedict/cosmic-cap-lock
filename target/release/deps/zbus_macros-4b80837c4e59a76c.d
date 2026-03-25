@@ -1,0 +1,10 @@
+/home/aaron/Downloads/cosmic-applet-capslock/cosmic-applet-capslock/target/release/deps/zbus_macros-4b80837c4e59a76c.d: /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.14.0/src/lib.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.14.0/src/error.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.14.0/src/iface.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.14.0/src/proxy.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.14.0/src/utils.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.14.0/src/../README.md
+
+/home/aaron/Downloads/cosmic-applet-capslock/cosmic-applet-capslock/target/release/deps/libzbus_macros-4b80837c4e59a76c.so: /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.14.0/src/lib.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.14.0/src/error.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.14.0/src/iface.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.14.0/src/proxy.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.14.0/src/utils.rs /home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.14.0/src/../README.md
+
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.14.0/src/lib.rs:
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.14.0/src/error.rs:
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.14.0/src/iface.rs:
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.14.0/src/proxy.rs:
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.14.0/src/utils.rs:
+/home/aaron/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.14.0/src/../README.md:
