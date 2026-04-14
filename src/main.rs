@@ -1,17 +1,14 @@
 // cosmic-applet-capslock
 // Caps Lock indicator for the COSMIC panel.
-//
-// API reference: https://pop-os.github.io/libcosmic-book/panel-applets.html
 
 use cosmic::{
     app::Core,
     iced::{
         self,
         platform_specific::shell::commands::popup::{destroy_popup, get_popup},
-        widget::column,
-        Alignment, Limits, Subscription,
+        Alignment, Color, Length, Limits, Subscription,
     },
-    widget::{divider, text},
+    widget::{container, divider, text},
     Application, Element,
 };
 use iced::window;
@@ -21,14 +18,12 @@ mod keyboard;
 
 const APP_ID: &str = "com.system76.CosmicAppletCapslock";
 
-// ── Messages ───────────────────────────────────────────────────────────────
 #[derive(Debug, Clone)]
 pub enum Message {
     TogglePopup,
     CapsLockChanged(bool),
 }
 
-// ── State ──────────────────────────────────────────────────────────────────
 pub struct CapsLockApplet {
     core: Core,
     popup: Option<window::Id>,
@@ -43,13 +38,8 @@ impl Application for CapsLockApplet {
 
     const APP_ID: &'static str = APP_ID;
 
-    fn core(&self) -> &Core {
-        &self.core
-    }
-
-    fn core_mut(&mut self) -> &mut Core {
-        &mut self.core
-    }
+    fn core(&self) -> &Core { &self.core }
+    fn core_mut(&mut self) -> &mut Core { &mut self.core }
 
     fn init(core: Core, _flags: ()) -> (Self, cosmic::Task<cosmic::Action<Message>>) {
         let applet = Self {
@@ -61,22 +51,55 @@ impl Application for CapsLockApplet {
         (applet, cosmic::Task::none())
     }
 
-    // ── Transparent panel background ─────────────────────────────────────────
     fn style(&self) -> Option<cosmic::iced::theme::Style> {
         Some(cosmic::applet::style())
     }
 
-    // ── Panel button ─────────────────────────────────────────────────────────
-    fn view(&self) -> Element<Message> {
-        self.core
-            .applet
-            .icon_button(&self.icon_name)
-            .on_press_down(Message::TogglePopup)
+    fn view(&self) -> Element<'_, Message> {
+        let (icon_w, icon_h) = self.core.applet.suggested_size(true);
+
+        let dot_color = if self.caps_active {
+            cosmic::theme::active().cosmic().accent_color().into()
+        } else {
+            Color::TRANSPARENT
+        };
+
+        let icon: Element<_> = cosmic::widget::icon::from_name("input-keyboard-symbolic")
+            .size(icon_h)
+            .into();
+
+        // Space::new() takes 0 args; width/height are chained methods
+        let dot = container(cosmic::widget::Space::new().width(6))
+            .style(move |_theme: &cosmic::Theme| {
+                cosmic::widget::container::Style {
+                    background: Some(cosmic::iced::Background::Color(dot_color)),
+                    border: cosmic::iced::Border {
+                        radius: 3.0.into(),
+                        ..Default::default()
+                    },
+                    ..Default::default()
+                }
+            })
+            .height(3);
+
+        let indicator: Element<_> = cosmic::widget::column::with_children(vec![
+            icon,
+            container(dot)
+                .width(Length::Fixed(icon_w as f32))
+                .align_x(cosmic::iced::alignment::Horizontal::Center)
+                .into(),
+        ])
+        .align_x(Alignment::Center)
+        .spacing(1)
+        .into();
+
+        cosmic::widget::button::custom(indicator)
+            .class(cosmic::theme::Button::AppletIcon)
+            .on_press(Message::TogglePopup)
             .into()
     }
 
-    // ── Popup contents ───────────────────────────────────────────────────────
-    fn view_window(&self, id: window::Id) -> Element<Message> {
+    fn view_window(&self, id: window::Id) -> Element<'_, Message> {
         if matches!(self.popup, Some(p) if p == id) {
             let status = if self.caps_active { "On" } else { "Off" };
             let description = if self.caps_active {
@@ -85,12 +108,12 @@ impl Application for CapsLockApplet {
                 "Normal typing mode"
             };
 
-            let content = column![
-                text::heading("Caps Lock"),
-                divider::horizontal::default(),
-                text::title1(status),
-                text::body(description),
-            ]
+            let content = cosmic::widget::column::with_children(vec![
+                text::heading("Caps Lock").into(),
+                divider::horizontal::default().into(),
+                text::title1(status).into(),
+                text::body(description).into(),
+            ])
             .align_x(Alignment::Center)
             .spacing(8)
             .padding(16);
@@ -106,7 +129,6 @@ impl Application for CapsLockApplet {
         }
     }
 
-    // ── Update ───────────────────────────────────────────────────────────────
     fn update(&mut self, message: Message) -> cosmic::Task<cosmic::Action<Message>> {
         match message {
             Message::TogglePopup => {
@@ -141,7 +163,6 @@ impl Application for CapsLockApplet {
         }
     }
 
-    // ── Subscription: poll every 250 ms ──────────────────────────────────────
     fn subscription(&self) -> Subscription<Message> {
         iced::time::every(Duration::from_millis(250))
             .map(|_| Message::CapsLockChanged(keyboard::query_caps_lock()))
